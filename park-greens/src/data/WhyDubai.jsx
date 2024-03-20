@@ -2,7 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFly, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faDumbbell, faGlassCheers, faSwimmingPool, faTree, faTreeCity, faGlobe, faBook, faCreditCardAlt, faCreditCard, faHandHolding, faRecycle, faDollar, faHeartCircleBolt, faLocationArrow, faLocation, faMapLocation, faCity } from '@fortawesome/free-solid-svg-icons';
-
+import DubaiImage from '../assets/dubai_why_2.jpg'; 
+import DubaiImage2 from '../assets/dubai_why.jpg'; 
 
 export default function WhyDubai() {
     return (
@@ -69,11 +70,11 @@ export default function WhyDubai() {
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src='https://pvgroupdubai.com/wp-content/uploads/2023/05/Damac-Hills-About-Photo.jpeg' width="600" height="500"></img>      </div>
+                    <img src={DubaiImage}></img>      </div>
             </div>
             <div class="row featurette py-5">
                 <div class="col-md-6">
-                    <img src='https://www.naga.ae/wp-content/uploads/2018/07/1227e08.jpg' width="600" height="500"></img>      </div>
+                    <img src={DubaiImage2}></img>      </div>
                 <div class="col-md-6">
                     <div className='row g-4 py-5 row-cols-1 row-cols-lg-3'>
                         <div className='col-lg-6'>
@@ -124,9 +125,7 @@ export default function WhyDubai() {
                                 </div>
                                 <div>
                                     <h4>Safety ensured for everyone</h4>
-                                    <p>
-                                   
-The UAE is among the safest countries worldwide, with strong law enforcement resulting in very low crime rates, thanks to years of careful planning and development.</p>                                </div>
+                                    <p>The UAE is among the safest countries worldwide, with strong law enforcement resulting in very low crime rates, thanks to years of careful planning and development.</p></div>
                             </div>
                         </div>
                     </div>
