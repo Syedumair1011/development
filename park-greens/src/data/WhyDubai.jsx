@@ -69,11 +69,11 @@ export default function WhyDubai() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 d-none d-lg-block">
                     <img src={DubaiImage}></img>      </div>
             </div>
             <div class="row featurette py-5">
-                <div class="col-md-6">
+                <div class="col-md-6 d-none d-lg-block">
                     <img src={DubaiImage2}></img>      </div>
                 <div class="col-md-6">
                     <div className='row g-4 py-5 row-cols-1 row-cols-lg-3'>
