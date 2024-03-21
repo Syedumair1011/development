@@ -49,7 +49,7 @@ export default function Floor() {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='about-property'>
-                                <img src={FloorPlan} className="d-block w-100" style={{ objectFit: 'cover' }} alt="Park Greens Phase 2" />
+                                <img src={FloorPlan} className="d-block w-100" style={{ objectFit: 'cover' }} height={470} alt="Park Greens Phase 2" />
                             </div>
                         </div>
                         <div className='col-lg-6'>
@@ -95,7 +95,7 @@ export default function Floor() {
                                     </a>
                                 </div>
                                 <div className='col-lg-6 '>
-                                    <button className="btn btn-primary" onClick={handleShowModal}>Download Brochure</button>
+                                    <button className="btn btn-primary" onClick={handleShowModal}>Brochure</button>
                                 </div>
                             </div>
                         </div>
