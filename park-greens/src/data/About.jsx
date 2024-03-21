@@ -77,7 +77,7 @@ export default function About() {
                         </div>
                         <div className='col-lg-6'>
                             <div className='about-property'>
-                                <img src='https://metropolitan.realestate/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/park-greens-02.jpg.webp' className="d-block w-100" style={{ objectFit: 'cover' }} height='370' alt="Park Greens Phase 2" />
+                                <img src='https://metropolitan.realestate/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/park-greens-02.jpg.webp' className="d-block w-100" style={{ objectFit: 'cover' }} height='370'  alt="Park Greens Phase 2" />
                             </div>
                         </div>
                     </div>
