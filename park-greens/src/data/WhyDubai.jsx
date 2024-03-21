@@ -69,12 +69,12 @@ export default function WhyDubai() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-none d-lg-block">
-                    <img src={DubaiImage}></img>      </div>
+                <div class="col-md-6">
+                    <img src={DubaiImage} width={550} ></img>      </div>
             </div>
             <div class="row featurette py-5">
-                <div class="col-md-6 d-none d-lg-block">
-                    <img src={DubaiImage2}></img>      </div>
+                <div class="col-md-6">
+                    <img src={DubaiImage2} width={550}></img>      </div>
                 <div class="col-md-6">
                     <div className='row g-4 py-5 row-cols-1 row-cols-lg-3'>
                         <div className='col-lg-6'>
@@ -125,7 +125,9 @@ export default function WhyDubai() {
                                 </div>
                                 <div>
                                     <h4>Safety ensured for everyone</h4>
-                                    <p>The UAE is among the safest countries worldwide, with strong law enforcement resulting in very low crime rates, thanks to years of careful planning and development.</p></div>
+                                    <p>
+                                   
+The UAE is among the safest countries worldwide, with strong law enforcement resulting in very low crime rates, thanks to years of careful planning and development.</p>                                </div>
                             </div>
                         </div>
                     </div>
