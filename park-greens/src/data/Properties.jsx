@@ -63,7 +63,7 @@ export default function Properties({ onCurrencyChange }) {
             Image: 'https://avatars.housearch.com/get-verba/1030388/2a0000018bb7f1beb1b3bbd280bf5da25a8a/housearch_large'
         },
         {
-            title: 'Luxury Living at DAMAC Hills 2 - Villas',
+            title: 'Verona DAMAC Hills 2 - Villas',
             location: 'Damac Hills 2',
             bed: '5',
             bath: '3',
